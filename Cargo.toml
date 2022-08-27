@@ -6,6 +6,9 @@ description = "FFI bindings to the Leap Motion SDK 2.3.1"
 repository = "https://github.com/SludgePhD/leapcpp-sys"
 license = "0BSD"
 
+[lib]
+test = false
+
 [build-dependencies]
 bindgen = { version = "0.60.1", optional = true }
 cc = "1.0.71"
